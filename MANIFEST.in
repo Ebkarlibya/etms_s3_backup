@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include etms_s3_backup *.css
+recursive-include etms_s3_backup *.csv
+recursive-include etms_s3_backup *.html
+recursive-include etms_s3_backup *.ico
+recursive-include etms_s3_backup *.js
+recursive-include etms_s3_backup *.json
+recursive-include etms_s3_backup *.md
+recursive-include etms_s3_backup *.png
+recursive-include etms_s3_backup *.py
+recursive-include etms_s3_backup *.svg
+recursive-include etms_s3_backup *.txt
+recursive-exclude etms_s3_backup *.pyc
